@@ -12,8 +12,6 @@ class CheckoutSpec extends FlatSpec with Matchers with MockFactory {
     val checkoutItems = mock[CheckoutItems]
 
     val checkout = new Checkout(processItems, checkoutItems)
-
-
     val input = Seq("Apple")
     val output = Map("Apple" -> 1)
     val cost = 0.6

@@ -13,8 +13,12 @@ class CheckoutItems {
 
     items.foldLeft(0.0){ case (total, (item, quantity)) =>
       val result =  item match {
-          case "Apple" => total + (0.6) * quantity
-          case "Orange" => total + (0.25) * quantity
+          case "Apple" =>
+            val res  = (quantity / 2) + (quantity % 2)
+            total + ((0.6) * res)
+          case "Orange" =>
+           val res =  (quantity / 3) * (0.5) + ((quantity % 3) * 0.25)
+            total + res
         }
 
       BigDecimal(result).setScale(2, BigDecimal.RoundingMode.HALF_UP).toDouble
