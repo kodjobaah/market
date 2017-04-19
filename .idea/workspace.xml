@@ -70,21 +70,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Checkout.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Checkout.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Checkout.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19543974">
+            <state vertical-scroll-proportion="0.0">
               <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckoutItemSpec.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CheckoutItemSpec.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/CheckoutItemSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.41530946">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -257,39 +257,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="ScalaTest.CheckoutItemSpec.scanItems should return the cost of 4 oranges">
-    <configuration default="false" name="CheckoutItemSpec.checkoutItems should add a pound sign to the output" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="market" />
-      <setting name="path" value="CheckoutItemSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="checkoutItems should add a pound sign to the output" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="CheckoutSpec.checkoutItems should checkout the items" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="market" />
-      <setting name="path" value="CheckoutSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="checkoutItems should checkout the items" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.CheckoutItemSpec.scanItems should return the cost of apples and oranges">
     <configuration default="false" name="CheckoutItemSpec.scanItems should return the cost if only apples" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
@@ -306,22 +274,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="CheckoutItemSpec.scanItems should return the cost of 3 oranges" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="market" />
-      <setting name="path" value="CheckoutItemSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="scanItems should return the cost of 3 oranges" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="CheckoutItemSpec.scanItems should return the cost of 4 oranges" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
@@ -333,6 +285,54 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="scanItems should return the cost of 4 oranges" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CheckoutItemSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="market" />
+      <setting name="path" value="CheckoutItemSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CheckoutItemSpec.checkoutItems should add a pound sign to the output" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="market" />
+      <setting name="path" value="CheckoutItemSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="checkoutItems should add a pound sign to the output" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CheckoutItemSpec.scanItems should return the cost of apples and oranges" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="market" />
+      <setting name="path" value="CheckoutItemSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="scanItems should return the cost of apples and oranges" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -534,19 +534,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.checkoutItems should add a pound sign to the output" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.CheckoutSpec.checkoutItems should checkout the items" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.scanItems should return the cost if only apples" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.scanItems should return the cost of 3 oranges" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.scanItems should return the cost of 4 oranges" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.scanItems should return the cost if only apples" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.scanItems should return the cost of 4 oranges" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.checkoutItems should add a pound sign to the output" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.scanItems should return the cost of apples and oranges" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.scanItems should return the cost of 4 oranges" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.scanItems should return the cost of 3 oranges" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.scanItems should return the cost if only apples" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.CheckoutSpec.checkoutItems should checkout the items" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.checkoutItems should add a pound sign to the output" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.scanItems should return the cost of apples and oranges" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.scanItems should return the cost of 4 oranges" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.checkoutItems should add a pound sign to the output" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec.scanItems should return the cost if only apples" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.CheckoutItemSpec" />
       </list>
     </recent_temporary>
   </component>
@@ -690,10 +690,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/CheckoutItemSpec.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/CheckoutItems.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Checkout.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ProcessItems.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -718,26 +734,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ProcessItems.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/CheckoutItemSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/CheckoutItems.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Checkout.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19543974">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.41530946">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding />
         </state>
       </provider>

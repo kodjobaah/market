@@ -17,7 +17,7 @@ class CheckoutItemSpec extends FlatSpec with Matchers {
 
   it should "return the cost if only orange" in {
 
-    val items = Map("Apple" -> 3, "Orange" -> 1)
+    val items = Map( "Orange" -> 1)
     val result = checkoutItems.scanItems(items)
 
     result should be(0.25)
@@ -29,7 +29,7 @@ class CheckoutItemSpec extends FlatSpec with Matchers {
     val items = Map("Apple" -> 3, "Orange" -> 1)
     val result = checkoutItems.scanItems(items)
 
-    result should be(2.05)
+    result should be(1.45)
 
   }
 
