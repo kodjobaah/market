@@ -1,8 +1,6 @@
 import org.scalatest.{FlatSpec, Matchers}
 
-/**
- * Created by kodjobaah on 19/04/2017.
- */
+
 class CheckoutItemSpec extends FlatSpec with Matchers {
 
   val checkoutItems = new CheckoutItems

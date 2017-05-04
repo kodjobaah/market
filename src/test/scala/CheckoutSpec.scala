@@ -1,9 +1,7 @@
 import org.scalamock.scalatest.MockFactory
 import org.scalatest.{FlatSpec, Matchers}
 
-/**
- * Created by kodjobaah on 19/04/2017.
- */
+
 class CheckoutSpec extends FlatSpec with Matchers with MockFactory {
 
   "checkoutItems" should "checkout the items" in {

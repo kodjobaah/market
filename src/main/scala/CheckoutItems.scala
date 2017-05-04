@@ -1,8 +1,5 @@
 import java.text.DecimalFormat
 
-/**
- * Created by kodjobaah on 19/04/2017.
- */
 class CheckoutItems {
   def checkoutItems(d: Double) = {
     val decimalFormat = new DecimalFormat("0.00")
