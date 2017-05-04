@@ -19,15 +19,17 @@ class CheckoutItems {
 
   def scanItems(items: Map[String, Int]) = {
 
+    def calculateOffer(itemPrice: Double, itemCount: Int, offerAmount: Int, quantity: Int): Double = {
+      itemPrice * (((quantity / offerAmount) * itemCount) + ((quantity % offerAmount)))
+    }
+
     items.foldLeft(0.0){ case (total, (item, quantity)) =>
-      val result =  item match {
+      val result =  total + (item match {
           case Apple =>
-            val res  = (quantity / 2) + (quantity % 2)
-            total + ((ApplePrice) * res)
+            calculateOffer(ApplePrice, 1, 2, quantity)
           case Orange =>
-           val res =  (quantity / 3) * (OrangePrice * 2) + ((quantity % 3) * OrangePrice)
-            total + res
-        }
+            calculateOffer(OrangePrice, 2, 3, quantity)
+        })
 
       BigDecimal(result).setScale(2, BigDecimal.RoundingMode.HALF_UP).toDouble
     }
