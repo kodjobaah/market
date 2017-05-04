@@ -4,21 +4,30 @@ import org.scalatest.{FlatSpec, Matchers}
 class CheckoutItemSpec extends FlatSpec with Matchers {
 
   val checkoutItems = new CheckoutItems
-  "scanItems" should "return the cost if only apples" in {
+  "scanItems" should "return the cost of one apple" in {
 
-    val items = Map("Apple" -> 3)
+    val items = Map("Apple" -> 1)
     val result = checkoutItems.scanItems(items)
 
-    result should be(1.20)
+    result should be(0.60)
 
   }
-
+  
   it should "return the cost if only orange" in {
 
     val items = Map( "Orange" -> 1)
     val result = checkoutItems.scanItems(items)
 
     result should be(0.25)
+
+  }
+
+  it should "return the cost if only apples" in {
+
+    val items = Map("Apple" -> 3)
+    val result = checkoutItems.scanItems(items)
+
+    result should be(1.20)
 
   }
 

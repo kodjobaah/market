@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7fb672dc-c515-488b-bb49-2361fbace4d3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/CheckoutItemSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/CheckoutItemSpec.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/CheckoutItems.scala" afterPath="$PROJECT_DIR$/src/main/scala/CheckoutItems.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/CheckoutSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/CheckoutSpec.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/ProcessItems.scala" afterPath="$PROJECT_DIR$/src/main/scala/ProcessItems.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="market.iws" />
@@ -50,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckoutSpec.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CheckoutSpec.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/CheckoutSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.048387095">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
@@ -80,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckoutItemSpec.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CheckoutItemSpec.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/CheckoutItemSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.22580644">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -125,10 +122,10 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/Checkout.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Offers.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/CheckoutItemSpec.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/CheckoutSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ProcessItems.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/CheckoutItems.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/CheckoutItemSpec.scala" />
       </list>
     </option>
   </component>
@@ -136,7 +133,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1210" />
+    <option name="x" value="672" />
     <option name="y" value="62" />
     <option name="width" value="1308" />
     <option name="height" value="1048" />
@@ -181,20 +178,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="market" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="market" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="market" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -620,7 +603,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1210" y="62" width="1308" height="1048" extended-state="0" />
+    <frame x="672" y="62" width="1308" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -754,14 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/CheckoutItemSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ProcessItems.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -778,6 +753,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/CheckoutSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/ProcessItemsSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -786,10 +769,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/CheckoutSpec.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/CheckoutItemSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048387095">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.22580644">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>
