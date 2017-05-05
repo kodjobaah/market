@@ -58,6 +58,15 @@ class CheckoutItemSpec extends FlatSpec with Matchers {
 
   }
 
+  it should "throw an exception if item is not an apple or orange" in {
+
+    val items = Map("DohDah" -> 4)
+    intercept[Exception] {
+      checkoutItems.scanItems(items)
+    }
+
+  }
+
   "checkoutItems" should "add a pound sign to the output" in {
 
     val result = checkoutItems.checkoutItems(0.30)

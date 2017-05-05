@@ -29,6 +29,7 @@ class CheckoutItems {
             calculateOffer(ApplePrice, 1, 2, quantity)
           case Orange =>
             calculateOffer(OrangePrice, 2, 3, quantity)
+          case _ => throw new IllegalStateException("item not valid")
         })
 
       BigDecimal(result).setScale(2, BigDecimal.RoundingMode.HALF_UP).toDouble
