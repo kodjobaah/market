@@ -58,6 +58,15 @@ class CheckoutItemSpec extends FlatSpec with Matchers {
 
   }
 
+  it should "return 0.00 if no items are supplied" in {
+
+    val items = Map.empty[String, Int]
+    val result = checkoutItems.scanItems(items)
+
+    result should be(0.00)
+
+  }
+
   it should "throw an exception if item is not an apple or orange" in {
 
     val items = Map("DohDah" -> 4)
